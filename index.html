@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lab 1</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+
+</head>
+
+<body>
+    <div class="total-items">
+        <div class="item quadratic" data-attr="quadratic">
+            <h2 style="color: darkred;">Phương trình bậc 2</h2>
+            <label for="">Input ax <sup>2</sup></label>
+            <input type="text" required class="first_value">
+            <label for="">Input bx</label>
+            <input type="text" required class="second_value">
+            <label for="text">Input c</label>
+            <input type="text" required class="third_value">
+            <button class="run">Run</button>
+            <div class="result">
+            </div>
+        </div>
+        <div class="item drop-menu" data-attr="drop-menu">
+            <ul class="drop-menu-main">
+                <li class="dropdown-parent"><a href="">Home</a>
+                    <ul class="dropdown-parent-child">
+                        <li><a href="#">New Post</a></li>
+                        <li><a href="#">New Post</a></li>
+                        <li><a href="#">New Post</a></li>
+                    </ul>
+                </li>
+                <li class="dropdown-parent"><a href="">About</a>
+                    <ul class="dropdown-parent-child">
+                        <li><a href="#">New Post</a></li>
+                        <li><a href="#">New Post</a></li>
+                        <li><a href="#">New Post</a></li>
+                    </ul>
+                </li>
+                <li class="dropdown-parent"><a href="">Service</a>
+                    <ul class="dropdown-parent-child">
+                        <li><a href="#">New Post</a></li>
+                        <li><a href="#">New Post</a></li>
+                        <li><a href="#">New Post</a></li>
+                    </ul>
+                </li>
+                <li class="dropdown-parent"><a href=""> Contact</a></li>
+            </ul>
+        </div>
+        <div class="item form-control login" data-attr="login">
+            <form action="" class="quadratic">
+                <h2>Login</h2>
+                <label for="">Tài khoản</label>
+                <input type="text" name="" id="">
+                <label for="">Mật khẩu</label>
+                <input type="password">
+                <button type="submit"> Đăng nhập</button>
+            </form>
+        </div>
+        <div class="item form-control register" data-attr="register">
+            <form action="" class="quadratic">
+                <h2>Register</h2>
+                <label for="">Tài khoản</label>
+                <input type="text" name="" id="">
+                <label for="">Mật khẩu</label>
+                <input type="password">
+                <label for="">Nhập lại mật khẩu</label>
+                <input type="password">
+                <button type="submit"> Đăng kí</button>
+            </form>
+        </div>
+    </div>
+    <div class="paginate-parent">
+        <ul class="paginate">
+            <li class="paginate-item active" data-attr="login">1</li>
+            <li class="paginate-item" data-attr="drop-menu">2</li>
+            <li class="paginate-item" data-attr="quadratic">3</li>
+            <li class="paginate-item" data-attr="register">4</li>
+        </ul>
+    </div>
+    <script src="assets/js/app.js"></script>
+</body>
+
+</html>
